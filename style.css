@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F7F7F7;
+    color: #444444;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 1rem;
+    color: #BF1E2E;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #BF1E2E;
+}
+
+input[type="number"] {
+    width: 4rem;
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #999999;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: #BF1E2E;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #960D1F;
+}
+
+table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 3rem;
+    font-weight: bold;
+    border: 2px solid #CCCCCC;
+}
+
+td:hover {
+    background-color: #F2F2F2;
+}
+
+.player1 {
+    color: #BF1E2E;
+}
+
+.player2 {
+    color: #0047AB;
+}
+
+.winner {
+    background-color: #FFCC00;
+}
+.message {
+  color: #960D1F;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  }

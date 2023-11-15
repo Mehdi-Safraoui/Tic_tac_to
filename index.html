@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css" integrity="sha512-nhJrrC80iuu5xKsv/Pwq3V7wtYhSefehCP7c+ka43BXu24ZfDN4QZZM+dbE4wW8n0IyojRYKzrT7X9B1G8mC0A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark">
+    <div class="container my-5 text-center">
+        <h1 class="text-danger">Tic Tac Toe</h1>
+        <form id="size-form" class="form-inline justify-content-center mb-5">
+            <label for="board-size" class="form-label mr-3 text-light">Choose board size from 4 to 10:</label>
+            <input type="number" id="board-size" min="4" max="10" value="4" class="form-control mr-3">
+            <button type="submit" class="btn btn-primary">Start</button>
+        </form>
+        <table id="game-board" class="table table-striped table-bordered table-hover"></table>
+    </div>
+    <div id="message" class="message"></div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
